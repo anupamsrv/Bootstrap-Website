@@ -17,15 +17,15 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-light p-2" data-bs-theme="light">
             <div class="container-fluid">
-                <a class="navbar-brand text-success" href="#Home">HarEkMal@89</a>
+                <a class="navbar-brand text-success" href="#Home">website@89</a>
 
                 <div class="collapse navbar-collapse" id="navbarNavDropdown">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <a class="nav-link active" style="font-weight: 600;" aria-current="page" href="#">Home</a>
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle" style="font-weight: 500;" href="#"
+                            <a class="nav-link text-dark dropdown-toggle" href="#"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 @89 Websites
                             </a>
@@ -36,7 +36,7 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link text-dark dropdown-toggle" style="font-weight: 500;" href="#"
+                            <a class="nav-link text-dark dropdown-toggle" href="#"
                                 role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Services
                             </a>
@@ -49,16 +49,20 @@
                             </ul>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" style="font-weight: 500;" href="contact.html">Contact Us</a>
+                            <a class="nav-link text-dark" href="contact.html">Contact Us</a>
                         </li>
                     </ul>
-                    <div class="mx-2">
-                        <div class="button btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">SignUp</div>
-                        <div class="button btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">LogIn</div>
-                    </div>
                 </div>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                <div class="dropdown mx-auto my-auto">
+                  <button class="button btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#loginModal">Log In</button>
+                  <button class="button btn btn-danger" type="button" data-bs-toggle="modal" data-bs-target="#signupModal">Sign Up</button>
+                </div>
+                <!-- <div class="mx-2">
+                    <div class="button btn btn-danger" data-bs-toggle="modal" data-bs-target="#signupModal">SignUp</div>
+                    <div class="button btn btn-danger" data-bs-toggle="modal" data-bs-target="#loginModal">LogIn</div>
+                </div> -->
+                <button class="navbar-toggler navbar-brand" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="ture"
                     aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
